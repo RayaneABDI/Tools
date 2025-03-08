@@ -20,6 +20,8 @@ return {
         liquid = { "prettier" },
         lua = { "stylua" },
         python = { "isort", "black" },
+        terraform = {"terraform_fmt"},
+        terragrunt = {"terragrunt_hclfmt"}
       },
       format_on_save = {
         lsp_fallback = true,

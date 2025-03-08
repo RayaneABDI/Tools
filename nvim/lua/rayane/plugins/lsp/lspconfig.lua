@@ -131,15 +131,10 @@ return {
           },
         })
       end,
-      ["ansiblels"] = function()
-        lspconfig["ansiblels"].setup({
-          capabilities = capabilities
-        })
-      end,
-      ["terraformls"]= function()
-        lspconfig["terraformls"].setup({
+      ["terraform_ls"] = function()
+        lspconfig["terraform_ls"].setup({
           capabilities = capabilities,
-          filetypes = {"tf"}
+          filetypes = {"*.tfvars","*.hcl","*.tf"}
         })
       end,
     })

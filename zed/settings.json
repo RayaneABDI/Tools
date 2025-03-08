@@ -7,9 +7,15 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
-  "base_keymap": "JetBrains",
+  "features": {
+    "edit_prediction_provider": "zed"
+  },
+  "base_keymap": "VSCode",
   "theme": "Andromeda",
   "vim_mode": true,
   "ui_font_size": 16,
-  "buffer_font_size": 16
+  "buffer_font_size": 16,
+  "ui_font_family": "MesloLGL Nerd Font",
+  "buffer_font_family": "MesloLGL Nerd Font",
+  "autosave": "on_focus_change"
 }

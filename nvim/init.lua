@@ -1,2 +1,2 @@
-require("JCN0kk.core")
-require("JCN0kk.lazy")
+require("rayane.core")
+require("rayane.lazy")
